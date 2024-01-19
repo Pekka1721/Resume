@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Rajender Bellanagari',
-  description: 'Frontend Developer',
+  description: 'Frontend, User Interface UI Developer',
 }
 
 export default function RootLayout({
@@ -14,7 +14,8 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body>
+        <body className='bg-gray-200'>
+          <NavBar></NavBar>
           {children}
           </body>
       </html>

@@ -1,3 +1,11 @@
 export default function Page() {
-  return <h1 className="text-xl font-bold">Main content goes here</h1>
+  return(
+    <>
+    <div>
+      <h3 className="font-bold">
+        Hi, I'm Jhon Snow
+      </h3>
+    </div>
+    </>
+  )
 }

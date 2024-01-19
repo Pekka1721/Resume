@@ -1,6 +1,11 @@
 import React,{FC} from "react"
 import Page from "../app/page"
 import Link from "next/link"
+import { IoPersonOutline } from "react-icons/io5";
+import {PiStudentBold } from "react-icons/pi"
+import { MdAlternateEmail,MdOutlineWorkOutline  } from "react-icons/md";
+import { FaCode } from "react-icons/fa6";
+
 
 
 interface MainLayout{
@@ -12,16 +17,16 @@ const NavBar:FC<any> = ()=>{
        <>  
         <nav className="bg-green-100">
             <div className="mx-auto w-auto px-2 sm:px-6  lg:px-8">
-            <div className="relative flex h-16 items-center justify-around">
-        <Link href={'/'} className="hover:font-bold  active:">Home</Link>
-        <Link href={'/education'}>Education</Link>
-        <Link href={'/skills'}>Skills</Link>
-        <Link href={'/portfolio'}>Portfolio</Link>
-        <Link href={'/contact'}>Contact</Link>
-
+            <div className="flex flex-row h-16 items-center justify-around">
+        <Link href={'/'}>< IoPersonOutline/></Link>
+        <Link href={'/education'}><PiStudentBold  /> </Link>
+        <Link href={'/skills'}><FaCode /></Link>
+        <Link href={'/portfolio'}><MdOutlineWorkOutline /> </Link>
+        <Link href={'/contact'}> <MdAlternateEmail /></Link>
+            </div>
                 </div>
             
-            </div>
+            
             
         
         </nav>

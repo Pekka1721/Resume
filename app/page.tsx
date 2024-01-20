@@ -2,9 +2,10 @@ export default function Page() {
   return(
     <>
     <div>
-      <h3 className="font-bold">
-        Hi, I'm Jhon Snow
-      </h3>
+      <p className="font-bold">
+        Hi I'm Rajender Reddy 
+      </p>
+      <p>Frontend/UI Developer</p>
     </div>
     </>
   )

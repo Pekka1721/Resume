@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -14,9 +15,10 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body className='bg-gray-200'>
+        <body className='bg-black'>
           <NavBar></NavBar>
           {children}
+          <Footer></Footer>
           </body>
       </html>
     )

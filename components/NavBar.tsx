@@ -14,7 +14,7 @@ interface MainLayout {
 const NavBar: FC<any> = () => {
   return (
     <>
-      <nav className="bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-400 to-90% text-white items-center flex h-16 justify-between px-2 md:px-6">
+      <nav className="bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-400 to-90% border-b-2 shadow-xl shadow-sky-100 text-white items-center flex h-16 justify-between px-2 md:px-6">
         <div className="w-50">
           <span className="flex p-4 font-bold font-mono">Rajender Reddy</span>
         </div>

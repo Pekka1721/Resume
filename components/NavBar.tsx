@@ -42,10 +42,10 @@ const NavBar: FC<any> = () => {
           </Link>
           <Link
             className="flex items-center gap-2 font-mono hover:font-bold"
-            href={"/portfolio"}
+            href={"/projects"}
           >
             <MdOutlineWorkOutline />
-            <span className="hidden md:inline ">Portfolio</span>
+            <span className="hidden md:inline ">Projects</span>
           </Link>
           <Link
             className="flex items-center gap-2 font-mono hover:font-bold"

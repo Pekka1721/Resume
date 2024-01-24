@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Page() {
   return (
     <>
-      <div className="bg-cover  bg-center min-h-screen flex items-center" style={{ backgroundImage: 'url("assets/background.jpg")' }}>
+      <div className="bg-cover  bg-center min-h-screen flex items-center bg-gradient-to-tr from-indigo-400 from-10% via-sky-500 via-30% to-emerald-400 to-90% opacity-90">
         <div className="grid gap-y-6 place-items-center w-screen">
         
             <span className=" text-white text-6xl font-mono  hover:-translate-y-2">Hi</span>
